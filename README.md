@@ -184,9 +184,9 @@ Training entails a pre-step of hyperparameter tuning using `keras_tuner`. Hyperp
 * Learning rate
 * Number of epochs
 
-Once these are optimized the best hyperparameter configuration is used to train the model.
+Once optimized, the best hyperparameter configuration is used to train the model.
 
-The mddel has an early stopping mechanism, which uses the validation loss as a stopping condition. Once the validation loss drops, the training continues for a set number of epochs and stops if there is no improvement over the historic best value.
+The model has an early stopping mechanism, which uses the validation loss as a stopping condition. Once the validation loss drops, the training continues for a set number of epochs and stops if there is no improvement over the historic best value.
 
 The pre-training process can be explored using a number of methods:
 
