@@ -1,6 +1,53 @@
-# Chatbot built using real chat data and pretrained model
+# AI Chatbot Development using Keras Sequential Model
 
-This project is compiled with python for the purpose of  pre-trained USE model. The code is intended to run locally in a terminal.
+## Overview
+
+This project utilizes internal customer support data to create a robust chatbot using the Sequential model in Keras. The aim is to efficiently process unstructured data, label data through unsupervised and supervised techniques, and ultimately build an AI Chatbot for customer assistance.
+
+## Tech Stack
+
+- **Language:** Python
+- **Libraries:** pandas, numpy, seaborn, spacy, tensorflow, sklearn, nltk, matplotlib, hyperopt, keras, chatintents
+
+## Data
+
+The dataset comprises unstructured ProjectPro customer service inquiry chat logs, involving dialogues between a human customer agent and a visitor to the ProjectPro website.
+
+## Approach
+
+1. **Preprocess semi-structured data**
+2. **Perform exploratory data analysis**
+3. **Unsupervised labeling**
+4. **Supervised labeling**
+5. **Training data preparation**
+6. **Hyperparameter tuning**
+7. **Train deep learning sequential model**
+8. **Evaluate the model**
+9. **Use the model for prediction**
+10. **Run the chatbot**
+
+**Note:** Refer to README.MD file for running all code files.
+
+## Project Takeaways
+
+1. Understand the role of Chatbots in customer service.
+2. Learn to process semi-structured data effectively.
+3. Explore unsupervised and supervised labeling techniques.
+4. Clean textual data for optimal model input.
+5. Conduct exploratory data analysis for textual data.
+6. Prepare data for training chatbots.
+7. Create embeddings for textual data.
+8. Build a Keras sequential model.
+9. Perform hyperparameter tuning for optimal results.
+10. Evaluate the model using accuracy and F1 score.
+11. Make predictions using the developed model.
+12. Run the Chatbot seamlessly.
+
+## Implementation Details
+
+### Chatbot built using real chat data and pretrained model
+
+This project is compiled with Python using a pre-trained Universal Sentence Encoder (USE) model. The code is designed to run locally in a terminal.
 
 Virtual environment
 
