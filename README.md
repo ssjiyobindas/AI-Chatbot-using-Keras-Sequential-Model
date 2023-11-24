@@ -31,7 +31,7 @@ The dataset comprises unstructured ProjectPro customer service inquiry chat logs
 ## Project Takeaways
 
 1. Understand the role of Chatbots in customer service.
-2. Learn to process semi-structured data effectively.
+2. Process semi-structured data effectively.
 3. Explore unsupervised and supervised labeling techniques.
 4. Clean textual data for optimal model input.
 5. Conduct exploratory data analysis for textual data.
@@ -45,13 +45,13 @@ The dataset comprises unstructured ProjectPro customer service inquiry chat logs
 
 ## Implementation Details
 
-### Chatbot built using real chat data and pretrained model
+### Chatbot built using real chat data and pre-trained model
 
 This project is compiled with Python using a pre-trained Universal Sentence Encoder (USE) model. The code is designed to run locally in a terminal.
 
 Virtual environment
 
-Create a python 3.9 virtual environment using (please ensure you have [miniconda installed](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)):
+Create a Python 3.9 virtual environment using (please ensure you have [miniconda installed](https://conda.io/projects/conda/en/latest/user-guide/install/linux.html)):
 
 ```
 conda create -n myenv python=3.9
