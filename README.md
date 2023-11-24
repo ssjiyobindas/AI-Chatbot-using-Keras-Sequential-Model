@@ -65,7 +65,7 @@ conda activate myenv
 
 ## Add myenv to Jupyter-Notebook/Lab
 
-To ensure python versions are compatible between myenv and Jupyter it is necessary to create myenv IPython kernel.
+To ensure Python versions are compatible between myenv and Jupyter it is necessary to create myenv IPython kernel.
 
 Begin by installing `ipykernel`:
 
@@ -73,7 +73,7 @@ Begin by installing `ipykernel`:
 pip install --user ipykernel
 ```
 
-Then link the myvenv kernel to Jupyter:
+Then link the myenv kernel to Jupyter:
 
 ```
 python -m ipykernel install --user --name=myenv
@@ -114,7 +114,7 @@ Data label clustering is performed in an unsupervised way. An initial step befor
 
 ### Exploratory Data Analysis
 
-Following preprocessing, the data is then explored to identify and vidualise features. Beginning with initialising the EDA object:
+Following preprocessing, the data is then explored to identify and visualise features. Beginning with initializing the EDA object:
 
 ```
 python engine.py --eda
